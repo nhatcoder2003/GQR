@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="vi">
+	<head>
+		<title>Tạo mã QR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Tạo mã QR</h1>
+				<p>Nhập liên kết của bạn để tạo mã QR
+					</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post">
+				<input type="url" name="url" id="url" placeholder="Nhập liên kết" />
+				<input type="button" value="Tiến hành tạo mã QR" onclick="build_url()"/>
+			</form>
+			<p id="b_url"></p>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+
+					<li><a href="https:/github.com/nhatcoder2003" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Powered by <a href="https://www.facebook.com/vuminhnhat10092003" target="_blank">Nhật Vũ</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/main.js"></script>
+			<script src="/assets/js/build_url.js"></script>
+
+	</body>
+</html>
